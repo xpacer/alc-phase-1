@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="132dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="8dp" />
+
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:contentDescription="@string/profile_image_text"
+        android:scaleType="centerCrop"
+        android:src="@drawable/damola"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_label_name"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_name"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/my_name"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_name" />
+
+    <TextView
+        android:id="@+id/tv_label_track"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_track"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/my_track"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_track" />
+
+    <TextView
+        android:id="@+id/tv_label_country"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_country"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_track" />
+
+    <TextView
+        android:id="@+id/tv_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/my_country"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_country" />
+
+    <TextView
+        android:id="@+id/tv_label_email"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_email"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_country" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/my_email"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_email" />
+
+    <TextView
+        android:id="@+id/tv_label_phone"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_phone_number"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_email" />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/my_phone_number"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_phone" />
+
+    <TextView
+        android:id="@+id/tv_label_slack"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lable_slack_username"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_phone" />
+
+    <TextView
+        android:id="@+id/tv_slack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/my_slack_username"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_slack" />
+
+
+</android.support.constraint.ConstraintLayout>

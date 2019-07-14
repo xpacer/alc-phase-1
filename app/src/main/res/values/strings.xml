@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">alc-phase-1</string>
+    <string name="button_1_text">About ALC</string>
+    <string name="button_2_text">My Profile</string>
+    <!--Labels-->
+    <string name="label_name">Name</string>
+    <string name="label_track">Track</string>
+    <string name="label_email">Email</string>
+    <string name="label_country">Country</string>
+    <string name="lable_slack_username">Slack Username</string>
+    <string name="label_phone_number">Phone Number</string>
+
+    <!-- User Values -->
+    <string name="my_name">Adedamola Adeniran</string>
+    <string name="my_track">Android</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_country">Nigeria</string>
+    <string name="my_email">claude.xpacer@gmail.com</string>
+    <string name="my_phone_number">+2348023950135</string>
+    <string name="my_slack_username">Xpacer</string>
+
+    <!--Titles-->
+    <string name="welcome">Welcome</string>
+    <string name="about_alc">About ALC</string>
+    <string name="about_andela_url" translatable="false">https://andela.com/alc/</string>
+
+    <string name="welcome_title_text">ALC 4.0 Challenge Phase 1</string>
+    <string name="profile_image_text">Profile image</string>
+</resources>
